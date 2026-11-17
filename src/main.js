@@ -5,17 +5,7 @@ import viteLogo from './assets/vite.svg'
 import { setupCounter } from './counter.js'
 
 document.querySelector('#app').innerHTML = `
-<div class="grid grid-flow-col grid-rows-4 gap-4">
-  <div>01</div>
-  <!-- ... -->
-  <div>05</div>
-  <div class="row-span-3 grid grid-rows-subgrid gap-4">
-    <div class="row-start-2">06</div>
-  </div>
-  <div>07</div>
-  <!-- ... -->
-  <div>10</div>
-</div>
+
 <section id="center">
   <div class="hero">
     <img src="${heroImg}" class="base" width="170" height="179">
