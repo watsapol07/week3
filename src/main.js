@@ -6,8 +6,8 @@ import { setupCounter } from './counter.js'
 
 document.querySelector('#app').innerHTML = `
 <div class="max-w-sm rounded-2xl bg-white
-p-6 shadow-lg">flex items-center
-justify-between
+p-6 shadow-lg"><flex items-center
+justify-between>
 <h2 class="text-xl font-bold text-slate-900">
 สวัสดี Tailwind
 </h2>
@@ -17,7 +17,8 @@ justify-between
 <button class="mt-4 rounded-lg bg-sky-700
 px-4 py-2 text-white">
 เริ่มเลย
-</button>
+</button></flex items-center
+justify-between>
 </div>
 
 `
